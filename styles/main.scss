@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: $primary-color;
+  background-color: $primary-color-rgb;
   color: set-text-color($primary-color-rgb);
   height: 100vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -70,7 +70,5 @@ footer {
 .text-secondary {
   color: $secondary-color;
 }
-
-
 
 @import "responsive";

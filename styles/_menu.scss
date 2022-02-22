@@ -81,13 +81,11 @@
     list-style-type: none;
     padding-right: 1rem;
     transform: translateY(-100%);
-    visibility: hidden;
 
     @include transition-ease;
 
     &.open {
       transform: translateY(0);
-      visibility: visible;
     }
 
     &__item {
