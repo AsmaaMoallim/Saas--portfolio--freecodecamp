@@ -1,7 +1,4 @@
 @import "config";
-@import "home";
-@import "menu";
-@import "about";
 
 html {
   font-size: 62.5%;
@@ -14,7 +11,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
-  
+
 h1,
 h2,
 h3 {
@@ -63,3 +60,8 @@ footer {
   pad: 1rem;
   color: set-text-color($primary-color-rgb);
 }
+
+@import "home";
+@import "menu";
+@import "about";
+@import "projects";
