@@ -1,5 +1,11 @@
 @import "config";
 
+@import "home";
+@import "menu";
+@import "about";
+@import "projects";
+@import "contact";
+
 html {
   font-size: 62.5%;
 }
@@ -59,14 +65,12 @@ footer {
   text-align: right;
   pad: 1rem;
   color: set-text-color($primary-color-rgb);
-} 
+}
 
 .text-secondary {
   color: $secondary-color;
 }
 
-@import "home";
-@import "menu";
-@import "about";
-@import "projects";
-@import "contact";
+
+
+@import "responsive";
